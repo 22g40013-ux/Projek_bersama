@@ -17,17 +17,6 @@ body {
 }
 
 
-
-.btn {
-    display: inline-block;
-    background-color: #6f4e37;
-    color: #fff;
-    padding: 10px 20px;
-    border-radius: 8px;
-    text-decoration: none;
-    transition: 0.3s;
-}
-
 .btn:hover {
     background-color: #4e342e;
 }
@@ -70,6 +59,7 @@ input {
     width: 100%;
     border-radius: 12px;
 }
+
 
 
 
