@@ -34,4 +34,11 @@
             background: rgba(0,0,0,0.6);
             z-index: 0;
         }
+.hero h1, 
+        .hero p, 
+        .hero .btn, 
+        .hero .logo {
+            position: relative;
+            z-index: 1;
+        }
 
