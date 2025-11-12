@@ -6,7 +6,6 @@
     <title>Sistem Informasi Katalog Kopi Kita</title>
     <link rel="stylesheet" href="style.css">
  <style>
-        /* Reset dasar */
         * {
             margin: 0;
             padding: 0;
@@ -19,5 +18,12 @@
             display: flex;
             flex-direction: column;
             min-height: 100vh;
+        }
+.hero {
+            flex: 1;
+            text-align: center;
+            padding: 100px 20px;
+            background: url('images/kopi.jpeg') no-repeat center center/cover;
+            position: relative;
         }
 
