@@ -27,7 +27,7 @@
             flex: 1;
             text-align: center;
             padding: 100px 20px;
-            background: url('images/bg-kopi.jpeg') no-repeat center center/cover;
+            background: url('images/kopi.jpeg') no-repeat center center/cover;
             position: relative;
         }
 
@@ -107,3 +107,4 @@
     </footer>
 </body>
 </html>
+
