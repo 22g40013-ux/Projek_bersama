@@ -54,5 +54,11 @@
             margin-bottom: 10px;
             color: #f2d7b6;
         }
+ .hero p {
+            font-size: 1.1rem;
+            margin-bottom: 30px;
+            color: #f8f4f1;
+        }
+
 
 
