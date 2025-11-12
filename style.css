@@ -57,12 +57,20 @@ input {
     margin: 20px;
 }
 
-
+.produk-card {
+    background-color: #fff;
+    border: 1px solid #d7ccc8;
+    border-radius: 12px;
+    width: 250px;
+    padding: 15px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
 
 .produk-card img {
     width: 100%;
     border-radius: 12px;
 }
+
 
 
 
