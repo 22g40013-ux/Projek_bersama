@@ -59,6 +59,15 @@
             margin-bottom: 30px;
             color: #f8f4f1;
         }
+ .btn {
+            background-color: #c49a6c;
+            color: #2e2b29;
+            text-decoration: none;
+            padding: 12px 30px;
+            border-radius: 30px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
 
 
 
