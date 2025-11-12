@@ -12,3 +12,12 @@
             padding: 0;
             box-sizing: border-box;
         }
+ body {
+            font-family: 'Poppins', sans-serif;
+            color: #fff;
+            background-color: #2e2b29;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
