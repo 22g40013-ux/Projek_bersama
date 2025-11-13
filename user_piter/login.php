@@ -88,19 +88,20 @@ if (isset($_SESSION['username'])) {
         }
     </style>
 </head>
-</head>
 <body>
-    <h2>Login Admin</h2>
+    <div class="login-container">
+        <h2>Login Admin</h2>
+        <form action="login_process.php" method="POST">
+            <label>Username:</label>
+            <input type="text" name="username" required autocomplete="off">
 
-    <form action="login_process.php" method="POST" class="login-form">
-        <label>Username:</label><br>
-        <input type="text" name="username" required><br><br>
-        <label>Password:</label><br>
-        <input type="password" name="password" required><br><br>
-        <button type="submit" class="btn">Login</button>
-    </form>
+            <label>Password:</label>
+            <input type="password" name="password" required>
 
-    <br>
-    <a href="index.php" class="btn" style="background-color:#8d6e63;">Kembali ke Beranda</a>
+            <button type="submit" class="btn">Masuk</button>
+        </form>
+
+        <a href="index.php" class="back-link">← Kembali ke Beranda</a>
+    </div>
 </body>
 </html>
