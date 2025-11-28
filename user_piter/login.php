@@ -25,6 +25,6 @@ if (isset($_SESSION['username'])) {
     </form>
 
     <br>
-    <a href="index.php" class="btn" style="background-color:#8d6e63;">Kembali ke Beranda</a>
+    <a href="index.php" class="btn" style="background-color:#8d6e67;">Kembali ke Beranda</a>
 </body>
 </html>
